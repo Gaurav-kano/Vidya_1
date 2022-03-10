@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDashboard"
+    android:scrollbars="none">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:background="#00000000"
+            android:text="+"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="#00000000"
+            android:text="Sign out"
+            android:textSize="15dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/black"/>
+</RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classroom"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/bg_main"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/round_bk2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:padding="25dp"/>
+
+            <Button
+                android:id="@+id/join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:text="Join"
+                android:textColor="@color/black" />
+            <Button
+                android:id="@+id/Assign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:text="Assignment"
+                android:textColor="@color/black" />
+
+
+
+
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/food_back">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mathematics"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:id="@+id/join1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="join"
+                    android:background="#00000000"
+                    android:textColor="@color/white"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"
+                    />
+                <Button
+                    android:id="@+id/Assign1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="Assignment"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/round_bk5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hindi"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"/>
+                <Button
+                    android:id="@+id/join2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Join"
+                    android:background="#00000000"
+                    android:textColor="@color/white"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    />
+                <Button
+                    android:id="@+id/Assign2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="Assignment"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/round_bk3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_alignParentRight="true"
+                    />
+                <Button
+                    android:id="@+id/join3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:background="#00000000"
+                    android:textColor="@color/black"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"
+                    />
+                <Button
+                    android:id="@+id/Assign3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="Assignment"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/round_bk2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Social Studies"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:padding="25dp"/>
+                <Button
+                    android:id="@+id/join4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:background="#00000000"
+                    android:textColor="@color/black"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    />
+                <Button
+                    android:id="@+id/Assign4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="Assignment"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    
+</ScrollView>
